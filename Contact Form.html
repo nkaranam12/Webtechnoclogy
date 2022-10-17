@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><title>Contact Form</title></head>
+<link rel="icon" type= image/png href= "images/fd.jpg">
+<h2> Contact Form </h2>
+
+<body>
+<style>h2 {text-align: center;}</style>
+
+<head>
+
+
+<meta name="viewport" content="width=device-width, intial-scale=1.0">
+<link rel="stylesheet" href="Style4.css">
+<body>
+<ul class="navbar">
+   <li><button><a href="Resume.html">Home Page</a></button></li> 
+</ul>
+<div class="container">
+  <form action="https://www.randyconnolly.com/tests/process.php"  method="post">
+     
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    
+
+	 <label for="phone">Your Contact number</label> <br />
+              <!-- Added pattern attribute to validate the phone number -->
+              <input
+                type="tel"
+                id="phone"
+                name="phone"
+                placeholder="Enter your phone number"
+                maxlength="10"
+              />
+			  
+    <p><label for="Address">Address</label></p>
+    <textarea id="Address" name="Adress" placeholder="Enter your Address.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+	
+
+  </form>
+  <Center><p><div><a href="https://docs.google.com/forms/d/1Lhdlp9gevVyOs4OFttwl7TQUCVIjvTSgfG6Wea3U4d0/prefill" style="text-decoration: none;" ><img src="images/survey form.png" class="centerImage" height= "130" width="185" ><h2>Feedback Form</h2></div></a></p></Center>
+</div>
+
+
+
+</body>
+</html>

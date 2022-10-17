@@ -1,0 +1,16 @@
+*
+{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Montserrat', sans-self;
+}
+body
+{
+background: #ffffbf;
+letter-spacing: 2px;
+border: double black;
+height: 115vh;
+background-image : url(Images/bg.jpg);
+background-size:100%;
+}
